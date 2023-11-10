@@ -9,7 +9,7 @@ function CarList() {
     <>
       <section className="cars">
         <Container>
-          <Row className="justify-content-center">
+          <Row className="flex justify-content-center px-2 ">
             <Col lg={12}>
               <Row>
                 {state.filteredCars.map((car, index) => {
